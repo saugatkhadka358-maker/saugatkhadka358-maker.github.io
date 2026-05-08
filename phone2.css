@@ -1,0 +1,47 @@
+/* project-section  */
+.project-section {
+   height: 465px;
+}
+
+.project5 {
+    position: relative;
+    top: 98px;
+    left: 686px;
+    height: 335px;
+}
+
+/* skill-section  */
+.skill-section::before {
+    height: 144%;
+}
+
+/* hire-section  */
+.hire-section h1 {
+    top: 53px;
+    left: 35px;
+}
+
+#hire-p {
+    top: 72px;
+    left: 35px;
+}
+
+.hire-section button {
+    top: 92px;
+    left: 180px;
+}
+
+.hire1 {
+    top: -118px;
+    left: 500px;
+}
+
+.hire3 {
+    top: -245px;
+    left: 500px;
+}
+
+.hire2 {
+    top: -179px;
+    left: 768px;
+}
