@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/first.css"/>
-    <link rel="stylesheet" media="(min-width:1024px)" href="css/phone2.css"/>
-    <link rel="stylesheet" media="(min-width:768px) and (max-width:1023px)" href="css/phone.css"/>
-    <link rel="stylesheet" media="(max-width:767px)" href="css/phone1.css"/>
-    
+    <link rel="stylesheet" href="css/first.css" />
+    <link rel="stylesheet" media="(min-width:1024px)" href="css/phone2.css" />
+    <link rel="stylesheet" media="(min-width:768px) and (max-width:1023px)" href="css/phone.css" />
+    <link rel="stylesheet" media="(max-width:767px)" href="css/phone1.css" />
+
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -24,21 +24,21 @@
         <nav class="navbar">
             <div class="nav-title">Saugat Portfolio</div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Project</li>
-                <li>Contact me</li>
+                <li class="items"><a href="#home">Home</a></li>
+                <li class="items"><a href="#hire">About</a></li>
+                <li class="items"><a href="#projects">Project</a></li>
+                <li class="items"><a href="#" onclick="showPage('contact')">Contact me</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="section1">
+        <section id="home" class="page active section1">
             <div class="home-section">
                 <div class="left">
                     <h1>Hi, I am saugat - "Front-End Web developer"</h1>
                     <p>I create responsive and modern websites using HTML, CSS, and JavaScript. I am a beginner web
                         developer which focus on simple design, fast performance, and user-friendly layouts. </p>
-                    <button class="btn">Hire me</button>
+
                 </div>
                 <div class="right">
                     <div class="profile-img">
@@ -48,7 +48,7 @@
             </div>
         </section>
 
-        <section class="skill-section">
+        <section id="skills" class=" page active skill-section">
             <h1>Skill</h1>
             <div id="skill-bar">
                 <div id="skill1">
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </section>
-        <section class="project-section">
+        <section id="projects" class="page active project-section">
             <h1>My Latest Project</h1>
             <div class="project1 img">
                 <img src="images\business.webp" />
@@ -93,20 +93,22 @@
             <div class="project2 img">
                 <img src="images\landing-page.webp" />
             </div>
+            <a href="responsive.html">
             <div class="project3 img">
-                <img src="images\responive-web.jpg" />
+                <img src="images\responsive-web.jpg" />
             </div>
+            </a>
             <div class="project4 img">
                 <img src="images\vlog.jpg" />
             </div>
             <img class="project5" src="images\developer.webp" />
         </section>
-        <section class="hire-section">
+        <section id="hire" class="page active hire-section">
             <h1>Why you hire me?</h1>
             <p id="hire-p">I am new and passionate web developer who create responsive website,fix website bugs, convert
                 design to
                 HTML/CSS and also build landing pages.</p>
-            <button>Hire me</button>
+            <button class="btn" onclick="showPage('contact')">hire me</button>
             <div class="hire1">
                 <i class="fa-solid fa-gears icon"></i>
                 <h3>Fix Website Bugs</h3>
@@ -124,7 +126,7 @@
                 <p>Build a simple and responsive website with clean design for all devices.</p>
             </div>
         </section>
-        <section class="contact-section">
+        <section id="contact" class="page contact-section">
             <h1>Contact</h1>
             <p>Contact me to create responsive and modern websites for your business.</p>
             <div class="contact-box">
@@ -133,18 +135,18 @@
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name" placeholder="Enter Your Name">
                     </div>
-            <div class="contact">
-               <label for="email">Email:</label>
-               <input type="email" name="name" id="email" placeholder="Enter Your Email">
-            </div>
-                <div class="contact">
-                    <label for="phone">Phone-number:</label>
-                    <input type="phone" name="name" id="phone" placeholder="Enter Your Phone">
-                </div>
-                <div class="contact">
-                    <label for="message">Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                </div>
+                    <div class="contact">
+                        <label for="email">Email:</label>
+                        <input type="email" name="name" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="contact">
+                        <label for="phone">Phone-number:</label>
+                        <input type="phone" name="name" id="phone" placeholder="Enter Your Phone">
+                    </div>
+                    <div class="contact">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
                 </form>
             </div>
         </section>
@@ -154,6 +156,7 @@
             Copyrights&#169;SaugatkhadkaPortfolio.com | All Right Reserved
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
