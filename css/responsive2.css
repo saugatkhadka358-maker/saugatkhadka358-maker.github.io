@@ -1,0 +1,31 @@
+.slider {
+        width: 448px;
+        left: 492px;
+    }
+img#slide {
+    height: 85%;
+    width: 87%;
+    object-fit: contain;
+}
+
+h2 {
+    left: 365px;
+}
+
+p {
+    left: 366px;
+}
+
+h3 {
+    left: 122px;
+}
+
+ul {
+    left: 127px;
+}
+
+button {
+    left: 261px;
+    
+}
+

@@ -1,0 +1,34 @@
+    .slider {
+        height: 182px;
+        width: 300px;
+        left: 170px;
+    }
+
+        img#slide {
+        height: 90%;
+        width: 76%;
+        object-fit: contain;
+    }
+
+h2 {
+    left: 104px;
+}
+
+p {
+    left: 120px;
+}
+
+       h3 {
+        left: 80px;
+        top: 53px;
+    }
+
+    ul {
+        left: 86px;
+        top: 67px;
+    }
+    
+    button {
+        left: 235px;
+        top: 98px;
+    }

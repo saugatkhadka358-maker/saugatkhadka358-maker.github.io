@@ -1,0 +1,35 @@
+        .slider {
+        height: 182px;
+        width: 300px;
+        left: 404px;
+        padding: 6px 12px;
+    }
+
+        img#slide {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+
+h2 {
+    left: 200px;
+}
+
+p {
+    left: 210px;
+}
+
+    h3 {
+        left: 80px;
+        top: -123px;
+    }
+    ul {
+        left: 86px;
+        top: -100px;
+    }
+    
+    button {
+        left: 235px;
+        top: -48px;
+    }

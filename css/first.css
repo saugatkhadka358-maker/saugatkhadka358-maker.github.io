@@ -44,6 +44,11 @@
     list-style: none;
 }
 
+.navbar ul li a {
+    text-decoration: none;
+    color: #5a3e2b;
+}
+
 /* home section  */
 .section1 {
     background-color: rgb(242 212 94);
@@ -99,7 +104,7 @@
 
 /* skill section  */
 .skill-section {
-    background: linear-gradient(to bottom, rgb(242,212,94)0%, rgba(242,212,94,0.9)20%, rgba(242,212,94,0)60%);
+    background: linear-gradient(to bottom, rgb(242, 212, 94)0%, rgba(242, 212, 94, 0.9)20%, rgba(242, 212, 94, 0)60%);
     display: flex;
     flex-direction: column;
 }
@@ -116,7 +121,7 @@
 }
 
 .skill-section h1 {
-    margin: 35px 55px;
+    padding: 35px 55px;
     color: #5a3e2b;
 }
 
@@ -221,8 +226,16 @@ img {
     background-color: rgb(242 212 94);
 }
 
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
 .hire-section h1 {
-        position: relative;
+    position: relative;
     top: 53px;
     left: 141px;
     width: 87%;
@@ -296,21 +309,25 @@ img {
 /* contact-section  */
 
 .contact-section {
+    height: 540px;
+    display: none;
     width: 100%;
-    background-color:  rgb(242 212 94);
+    background-color: rgb(242 212 94);
     color: #5a3e2b;
-} 
+}
 
-.contact-section h1{
+.contact-section h1 {
     width: 100%;
     text-align: center;
     margin-bottom: 22px;
-} 
-.contact-section p{
+}
+
+.contact-section p {
     width: 100%;
     text-align: center;
     margin-bottom: 22px;
-} 
+}
+
 .contact-box {
     height: 333px;
     width: 100%;
@@ -320,25 +337,29 @@ img {
     justify-content: center;
     align-items: center;
 }
+
 .contact {
-     width: 395px;
+    width: 395px;
     display: flex;
     flex-direction: column;
     padding: 4px 0;
 
 }
+
 .contact label {
-       width: 100%;
-       display: flex;
-       justify-content: flex-start;
-       align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
 /* footer  */
 footer {
     background-color: rgb(242 212 94);
 }
+
 .copyright {
-         height: 110px;
+    height: 110px;
     width: 100%;
     color: #5a3e2b;
     background-color: rgb(242 212 94);
